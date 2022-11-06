@@ -9,4 +9,6 @@ import (
 func main() {
 	// setelah kita menambahkan module kita bisa langsung menggunakan module yang telah kita buat
 	fmt.Println(go_say_hello.SayHello())
+	// kemudian kita bisa langsung menggunakan depedency injection yang baru
+	fmt.Println(go_say_hello.SayName())
 }
